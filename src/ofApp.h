@@ -48,11 +48,7 @@ public:
    bool drawPadding;
    
    std::map<string, string>  topicDict;
-
-   ofxXmlSettings * xmlSettings;
-   //ofxUILabelToggleMatrix
     
-
 };
 
 

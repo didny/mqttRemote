@@ -6,10 +6,6 @@ void ofApp::setup(){
    ofSetVerticalSync(true);
    ofEnableSmoothing();
    
-   xmlSettings = new ofxXmlSettings("mySetting.xml");
-   xmlSettings->setValue("T0", "/test/test01");
-   xmlSettings->saveFile();
-   
    serverAddress = setting.getString("IPAddress");
    serverPort = setting.getInt("Port");
    userName = setting.getString("username");
@@ -78,7 +74,7 @@ void ofApp::setup(){
    
 
    ui->setWidgetPosition(OFX_UI_WIDGET_POSITION_DOWN,OFX_UI_ALIGN_CENTER);
-   ofxUILabelToggleMatrix *tglMtx = ui->addLabelToggleMatrix("B", rows, cols,btnWidth,btnHeight);
+   ofxUILabelToggleMatrix *tglMtx = ui->addLabelToggleMatrix("T", rows, cols,btnWidth,btnHeight);
    tglMtx->setFont(ui->getFontSmall());
    tglMtx->setLabelVisible(true);
    

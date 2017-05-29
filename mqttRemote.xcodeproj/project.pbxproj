@@ -55,6 +55,7 @@
 		87597B443E265D13D50E9798 /* ofxMQTT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9550D43A7A9A99BA6246474 /* ofxMQTT.cpp */; };
 		8853D3801ECDFF7600286A6D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8853D37F1ECDFF7600286A6D /* Settings.bundle */; };
 		889021BD1EDC944300EC9A6B /* ofxUILabelToggleMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 889021BC1EDC944300EC9A6B /* ofxUILabelToggleMatrix.cpp */; };
+		889021BF1EDCA53A00EC9A6B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 889021BE1EDCA53A00EC9A6B /* README.md */; };
 		926B19A31DB4291B7BC15003 /* read_handle_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F72FC2AB47AD6A4ACF42B /* read_handle_client.c */; };
 		933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */; };
 		96D7009D253F9D67EA3DD121 /* time_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 72FABF3779322048847A3112 /* time_mosq.c */; };
@@ -217,6 +218,7 @@
 		8853D37F1ECDFF7600286A6D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		885850B62FAD08EB1D2F0BF4 /* ofxUIRotarySlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxUIRotarySlider.h; path = ../../../addons/ofxUI/src/ofxUIRotarySlider.h; sourceTree = SOURCE_ROOT; };
 		889021BC1EDC944300EC9A6B /* ofxUILabelToggleMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxUILabelToggleMatrix.cpp; path = ../../../addons/ofxUI/src/ofxUILabelToggleMatrix.cpp; sourceTree = "<group>"; };
+		889021BE1EDCA53A00EC9A6B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B5F60B902BFFD95E99AAB34 /* ofxUIImageSampler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxUIImageSampler.cpp; path = ../../../addons/ofxUI/src/ofxUIImageSampler.cpp; sourceTree = SOURCE_ROOT; };
 		8F533D77E66E6FEFC37999F2 /* tls_mosq.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tls_mosq.h; path = ../../../addons/ofxMQTT/libs/mosquitto/src/tls_mosq.h; sourceTree = SOURCE_ROOT; };
 		8F8238006E98A8E39851968C /* ofxUIButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxUIButton.cpp; path = ../../../addons/ofxUI/src/ofxUIButton.cpp; sourceTree = SOURCE_ROOT; };
@@ -391,6 +393,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				889021BE1EDCA53A00EC9A6B /* README.md */,
 				4829FC3A1ED2BC6B0097029F /* data */,
 				8853D37F1ECDFF7600286A6D /* Settings.bundle */,
 				678E130917951536005B6D19 /* Icon.png */,
@@ -820,6 +823,7 @@
 				43BADBB2FE0F17D34B57A705 /* ofxUIScrollableCanvas.cpp in Sources */,
 				740A58CBFDFE578C83A349AF /* ofxUISlider.cpp in Sources */,
 				ADE7C2AFC51E3F7E5E389026 /* ofxUISortableList.cpp in Sources */,
+				889021BF1EDCA53A00EC9A6B /* README.md in Sources */,
 				BFEFCE32DAFE10A8EB519F6C /* ofxUISpacer.cpp in Sources */,
 				52AFF80A869790144ACCC9BA /* ofxUISpectrum.cpp in Sources */,
 				1DAAC3FB4B98B08AE63F4687 /* ofxUISuperCanvas.cpp in Sources */,
